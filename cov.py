@@ -14,7 +14,7 @@ from PIL import Image
 import numpy as np
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud, ImageColorGenerator, STOPWORDS
-import cv2
+# import cv2 opencv_python==4.4.0.42
 import random
 import wget
 import os
