@@ -159,13 +159,13 @@ def textblob_sentiment(title,description):
     blob = TextBlob(str(title)+" "+str(description))
     return blob.sentiment.polarity
 
-@st.cache()
-def create_mask():
-    mask = np.array(Image.open("coronavirus.png"))
-    im_gray = cv2.cvtColor(mask, cv2.COLOR_BGR2GRAY)
-    _, mask = cv2.threshold(im_gray, thresh=20, maxval=255, type=cv2.THRESH_BINARY)
-    mask = 255 - mask
-    return mask
+# @st.cache()
+# def create_mask():
+#     mask = np.array(Image.open("coronavirus.png"))
+#     im_gray = cv2.cvtColor(mask, cv2.COLOR_BGR2GRAY)
+#     _, mask = cv2.threshold(im_gray, thresh=20, maxval=255, type=cv2.THRESH_BINARY)
+#     mask = 255 - mask
+#     return mask
 
 def create_wc_by(source):
     data = fulldf[fulldf['source']==source]
@@ -175,7 +175,7 @@ def create_wc_by(source):
     stopwords.add('coronavirus')
     stopwords.add('corona')
     stopwords.add('chars')
-    wc = WordCloud(background_color="white", max_words=1000, mask=mask, stopwords=stopwords,
+    wc = WordCloud(background_color="white", max_words=1000, stopwords=stopwords,
                max_font_size=90, random_state=42, contour_width=3, contour_color='steelblue')
     wc.generate(text)
     plt.figure(figsize=[20,20])
@@ -262,6 +262,6 @@ if len(fulldf)>0:
     st.markdown(html,unsafe_allow_html=True)
     
     # Wordcloud
-    mask = create_mask()
+    # mask = create_mask()
     sources = st.selectbox("NewsSource",relevant_sent_df.source.values, index=0)
     st.pyplot(create_wc_by(sources),use_container_width=True)
