@@ -39,6 +39,7 @@ st.markdown(
           href="https://fonts.googleapis.com/css?family=Tangerine">
 
     <div style="font-family: 'Tangerine';font-size:48px"><center>Corona Daily</center></div>
+    <div font-size:32px"><p style="text-align:center;"> A news dashboard for the latest Covid-19 news around the world. -  By Lotachukwu Ibe </p>
 
 ''',unsafe_allow_html=True
 )
