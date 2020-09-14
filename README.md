@@ -5,23 +5,16 @@ With so much news being reported on the Corona virus pandemic, it has become qui
 <h2> Data </h2>
 The data gotten for this project are from <a href= "https://opendata.ecdc.europa.eu/covid19/casedistribution/csv"> European Centre for Disease Control (CDC)</a>, an open data source for the latest data on Covid-19 and <a href= "https://newsapi.org/"> News Api </a> to access leading news articles around the world.
 
-<h2> Method </h2>
-<li>
-  <ul>The news dashboard was created Python & Streamlit with data from NewsApi and European CDC. </ul>
-  <ul> I performed sentiment analysis on: </ul>
-    <li> <ul>the data using a custom sentiment analyzer from Textblob.  </ul>
-      <ul> the news outlets as well as some of the most positive and negative news related to Coronavirus.  </ul>
-    </li>    
-</li>
+## Method  
+The news dashboard was created with Python & Streamlit with data from NewsApi and European CDC.  
+I performed sentiment analysis on:
+- the data using a custom sentiment analyzer from Textblob. 
+- the news outlets as well as some of the most positive and negative news related to Coronavirus.  
 
  
- <h2> Results </h2>
+## Results   
  Click on the images below to view the dashboard.
-
-<table>
-  <tr>
-    <th> <p> <a href="https://secure-sierra-43846.herokuapp.com"> <img src="images/covid-p1.png"> </p> </th>  
-    <th> </p> <a href="https://secure-sierra-43846.herokuapp.com"> <img src="images/cover-p2.jpg"> </p> </th>   
-  </tr>
-</table>
+ 
+ | <a href="https://secure-sierra-43846.herokuapp.com"> <img src="images/covid-p1.png"> |  <a href="https://secure-sierra-43846.herokuapp.com"> <img src="images/cover-p2.jpg"> |
+|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
   
