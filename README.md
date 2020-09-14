@@ -6,7 +6,7 @@ With so much news being reported on the Corona virus pandemic, it has become qui
 The data gotten for this project are from two sources:
 <li> 
   <ol> <p> <a href= "https://opendata.ecdc.europa.eu/covid19/casedistribution/csv"> European Centre for Disease Control (CDC)</a>, an open data source for the latest data on Covid-19 and </p> </ol>
-  <ol> <p> <a href= "https://newsapi.org/"> News Api] to access leading news articles around the world </a></p></ol>
+  <ol> <p> <a href= "https://newsapi.org/"> News Api to access leading news articles around the world </a></p> </ol>
 </li>
 
 <h2> Method </h2>
