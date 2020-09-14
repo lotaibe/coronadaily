@@ -17,4 +17,5 @@ The data used in this project is from <a href= "https://opendata.ecdc.europa.eu/
  
  <a href="https://secure-sierra-43846.herokuapp.com"> <img src="images/covid-p1.png"> 
  
+ <p>
  <a href="https://secure-sierra-43846.herokuapp.com"> <img src="images/cover-p2.jpg">
