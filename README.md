@@ -3,11 +3,7 @@ A web app for reporting the latest news on corona virus around the globe - [*Cov
 With so much news being reported on the Corona virus pandemic, it has become quite a task to get understand the current state of the virus around the world. This project attempts to solve that by building an international news dashboard to report the latest on news on Covid-19
 
 <h2> Data </h2>
-The data gotten for this project are from two sources:
-<li> 
-  <ul> <a href= "https://opendata.ecdc.europa.eu/covid19/casedistribution/csv"> European Centre for Disease Control (CDC)</a>, an open data source for the latest data on Covid-19 and  </ul>
-  <ul> <a href= "https://newsapi.org/"> News Api </a> to access leading news articles around the world </ul>
-</li>
+The data gotten for this project are from <a href= "https://opendata.ecdc.europa.eu/covid19/casedistribution/csv"> European Centre for Disease Control (CDC)</a>, an open data source for the latest data on Covid-19 and <a href= "https://newsapi.org/"> News Api </a> to access leading news articles around the world.
 
 <h2> Method </h2>
 <li>
