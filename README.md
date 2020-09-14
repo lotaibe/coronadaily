@@ -16,5 +16,10 @@ The data gotten for this project are from two sources:
  ## Results 
  Click on the images below to view the dashboard.
 
-| <a href="https://secure-sierra-43846.herokuapp.com"> <img src="images/covid-p1.png">| <a href="https://secure-sierra-43846.herokuapp.com"> <img src="images/cover-p2.jpg"> |
-|---------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+<table style="width:100%">
+  <tr>
+    <td><a href="https://secure-sierra-43846.herokuapp.com"> <img src="images/covid-p1.png"></td>
+    <td><a href="https://secure-sierra-43846.herokuapp.com"> <img src="images/cover-p2.jpg"> </td> 
+  </tr>
+</table>
+  
