@@ -11,10 +11,10 @@ The data used in this project is from <a href= "https://opendata.ecdc.europa.eu/
  - the data using a custom sentiment analyzer from Textblob. 
  - the news outlets as well as some of the most positive and negative news related to Coronavirus.  
 
+ View the dashboard [**here**](https://secure-sierra-43846.herokuapp.com)
  
-## Results   
- Click on the images below to view the dashboard.
+## Results 
  
- | <a href="https://secure-sierra-43846.herokuapp.com"> <img src="images/covid-p1.png"> |  <a href="https://secure-sierra-43846.herokuapp.com"> <img src="images/cover-p2.jpg"> |
-|--------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-  
+ <a href="https://secure-sierra-43846.herokuapp.com"> <img src="images/covid-p1.png"> 
+ 
+ <a href="https://secure-sierra-43846.herokuapp.com"> <img src="images/cover-p2.jpg">
