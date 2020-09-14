@@ -8,8 +8,8 @@ The data used in this project is from <a href= "https://opendata.ecdc.europa.eu/
 ## Method  
 - The news dashboard was created with Python & Streamlit with data from NewsApi and European CDC.  
 - I performed sentiment analysis on:
- - the data using a custom sentiment analyzer from Textblob. 
- - the news outlets as well as some of the most positive and negative news related to Coronavirus.  
+  - the data using a custom sentiment analyzer from the `Textblob` library. 
+  - the news outlets as well as some of the most positive and negative news related to Coronavirus.  
 
  View the dashboard [**here**](https://secure-sierra-43846.herokuapp.com) and the source code [**here**](https://github.com/LotaIbe/coronadaily/blob/master/cov.py)
  
