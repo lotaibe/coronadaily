@@ -20,8 +20,8 @@ The data gotten for this project are from <a href= "https://opendata.ecdc.europa
 
 <table>
   <tr>
-    <td><a href="https://secure-sierra-43846.herokuapp.com"><img src="images/covid-p1.png"></td>  
-    <td><a href="https://secure-sierra-43846.herokuapp.com"><img src="images/cover-p2.jpg"> </td>   
+    <th><a href="https://secure-sierra-43846.herokuapp.com"><img src="images/covid-p1.png"></th>  
+    <th><a href="https://secure-sierra-43846.herokuapp.com"><img src="images/cover-p2.jpg"> </th>   
   </tr>
 </table>
   
