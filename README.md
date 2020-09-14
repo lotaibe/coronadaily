@@ -1,8 +1,6 @@
 # Covid News
 A web app for reporting the latest news on corona virus around the globe - [*Covid Daily*](https://secure-sierra-43846.herokuapp.com)
 
-## Abstract
-
 With so much news being reported on the Corona virus pandemic, it has become quite a task to get understand the current state of the virus around the world. This project attempts to solve that by building an international news dashboard to report the latest on news on Covid-19
 
 ## Data 
