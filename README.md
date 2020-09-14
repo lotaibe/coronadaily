@@ -5,8 +5,8 @@ With so much news being reported on the Corona virus pandemic, it has become qui
 <h2> Data </h2>
 The data gotten for this project are from two sources:
 <li> 
-  <ol> <p> <a href= "https://opendata.ecdc.europa.eu/covid19/casedistribution/csv"> European Centre for Disease Control (CDC)</a>, an open data source for the latest data on Covid-19 and </p> </ol>
-  <ol> <p> <a href= "https://newsapi.org/"> News Api </a> to access leading news articles around the world </p> </ol>
+  <ol> <a href= "https://opendata.ecdc.europa.eu/covid19/casedistribution/csv"> European Centre for Disease Control (CDC)</a>, an open data source for the latest data on Covid-19 and  </ol>
+  <ol> <a href= "https://newsapi.org/"> News Api </a> to access leading news articles around the world </ol>
 </li>
 
 <h2> Method </h2>
