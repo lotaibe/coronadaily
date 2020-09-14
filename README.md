@@ -18,7 +18,7 @@ The data gotten for this project are from <a href= "https://opendata.ecdc.europa
  <h2> Results </h2>
  Click on the images below to view the dashboard.
 
-<table style="width:100%">
+<table>
   <tr>
     <td><a href="https://secure-sierra-43846.herokuapp.com"><img src="images/covid-p1.png"></td>  
     <td><a href="https://secure-sierra-43846.herokuapp.com"><img src="images/cover-p2.jpg"> </td>   
