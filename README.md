@@ -12,7 +12,8 @@ The data gotten for this project are from two sources:
 - I performed sentiment analysis on:
   - the data using a custom sentiment analyzer from `Textblob`.
   - the news outlets as well as some of the most positive and negative news related to Coronavirus.
-  - Obtained sentiment scores using the function below:
+  - Obtained sentiment scores using the function below:  
+  
   ``` def textblob_sentiment(title,description):
     blob = TextBlob(str(title)+" "+str(description))
     return blob.sentiment.polarity
