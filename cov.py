@@ -56,12 +56,12 @@ def get_data(date):
     country_first_case_date = casedata[casedata['cases']!=0].groupby("countryterritoryCode").aggregate({'dateRep':'min'}).reset_index()
     country_first_case_date.columns = ['countryterritoryCode','firstcasedate']
     casedata = casedata.merge(country_first_case_date,on='countryterritoryCode',how='left')
-    casedata['days_since_country_first_case'] = casedata.apply(lambda x: (x['dateRep'] - x['firstcasedate']).days,axis=1)
-    casedata = casedata[casedata['days_since_country_first_case']>=0]
+    casedata["Days since Country's First Case"] = casedata.apply(lambda x: (x['dateRep'] - x['firstcasedate']).days,axis=1)
+    casedata = casedata[casedata["Days since Country's First Case"]>=0]
     casedata['geoId'] = casedata['geoId'].apply(lambda x:str(x).lower())
     casedata = casedata.sort_values(by='dateRep')
-    casedata['cumdeaths']= casedata.groupby(by=['countryterritoryCode'])['deaths'].apply(lambda x: x.cumsum())
-    casedata['cumcases']= casedata.groupby(by=['countryterritoryCode'])['cases'].apply(lambda x: x.cumsum())
+    casedata['Cummulative Deaths']= casedata.groupby(by=['countryterritoryCode'])['deaths'].apply(lambda x: x.cumsum())
+    casedata['Cummulative Cases']= casedata.groupby(by=['countryterritoryCode'])['cases'].apply(lambda x: x.cumsum())
     return casedata
 
 curdate = date.today()
@@ -71,9 +71,9 @@ st.markdown(f"<center> <h1> Covid-19 Around the World  </h1></center>",unsafe_al
 
 type_data = st.selectbox("Choose data of interest  (Cases/Deaths)",['Cases','Deaths'], index=0)
 if type_data =='Deaths':
-    st.plotly_chart(px.line(casedata,x='days_since_country_first_case',y='cumdeaths',line_group='countriesAndTerritories',color = 'countriesAndTerritories'),use_container_width=True)
+    st.plotly_chart(px.line(casedata,x="Days since Country's First Case",y='Cummulative Deaths',line_group='countriesAndTerritories',color = 'countriesAndTerritories'),use_container_width=True)
 elif type_data =='Cases':
-    st.plotly_chart(px.line(casedata,x='days_since_country_first_case',y='cumcases',line_group='countriesAndTerritories',color = 'countriesAndTerritories'),use_container_width=True)
+    st.plotly_chart(px.line(casedata,x="Days since Country's First Case",y='Cummulative Cases',line_group='countriesAndTerritories',color = 'countriesAndTerritories'),use_container_width=True)
 
 
 
